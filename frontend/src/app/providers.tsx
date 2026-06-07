@@ -6,7 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#1a3a5c",
+      main: "#004aad",
     },
     secondary: {
       main: "#e8a020",
@@ -29,7 +29,7 @@ const theme = createTheme({
     },
     text: {
       primary: "#1a1a2e", // huvudtext
-      secondary: "#4a5568", // grå text
+      secondary: "#484a4d", // grå text
     },
   },
 });

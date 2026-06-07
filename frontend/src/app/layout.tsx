@@ -2,10 +2,14 @@ import type { Metadata } from "next";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import Providers from "./providers";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Byte Me | Tech förening i Uppsala",
   description: "Välkommen till vår förening tech förening i Uppsala",
+   icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -20,6 +24,7 @@ export default function RootLayout({
           <Providers>
             <Navbar />
             {children}
+            <Footer />
           </Providers>
         </AppRouterCacheProvider>
       </body>
