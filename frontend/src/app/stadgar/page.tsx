@@ -106,7 +106,7 @@ export default function Stadgar() {
           position: "relative",
           zIndex: 10,
           bgcolor: "background.default",
-          mt: "30vh",
+          mt: "25vh",
           minHeight: "90vh",
           p: 4,
         }}

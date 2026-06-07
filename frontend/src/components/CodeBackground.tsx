@@ -9,7 +9,7 @@ export default function CodeBackground() {
         top: { xs: "56px", sm: "64px" },
         left: 0,
         width: "100%",
-        height: "30vh",
+        height: "25vh",
         bgcolor: "#004aad",
         backgroundImage:
           "radial-gradient(rgba(0, 42, 96, 0.10) 1px, transparent 1px)",

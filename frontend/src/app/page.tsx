@@ -19,13 +19,13 @@ export default function Page() {
       <Box
         sx={{
           bgcolor: "#004AAD",
-          py: 8,
+          py: 5,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
         }}
       >
-        <Image src="/logo.svg" alt="Byte Me logo" width={150} height={150} />
+        <Image src="/logo.svg" alt="Byte Me logo" width={130} height={130} />
         <Typography
           variant="h5"
           sx={{ color: "white", fontWeight: 700, mt: 2 }}
