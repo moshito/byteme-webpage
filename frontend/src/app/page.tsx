@@ -26,14 +26,14 @@ export default function Page() {
         }}
       >
         <Image src="/logo.svg" alt="Byte Me logo" width={130} height={130} />
-        <Typography
+       {/*  <Typography
           variant="h5"
           sx={{ color: "white", fontWeight: 700, mt: 2 }}
         >
           <span style={{ opacity: 0.7 }}>{"<"}</span>
           {" Byte Me "}
           <span style={{ opacity: 0.7 }}>{"/>"}</span>
-        </Typography>
+        </Typography> */}
         <Link
           href="https://www.linkedin.com/company/byte-me-uppsala/"
           target="_blank"
